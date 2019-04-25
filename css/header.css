@@ -1,16 +1,28 @@
 .header {
-	height: 100px;
+	height: 90px;
 	margin-top: 20px;
 	margin-bottom: 5px;
-	border-bottom: solid 
 }
 
 .header-nav {
 	display: flex;
 	justify-content: space-between;
-	vertical-align: middle;
+    vertical-align: middle;
+	
 }
+
 .header .header-nav .header-logo-image {
+    width: 90px;
+    height: 30px;
+}
+
+.header .header-nav .header-logo-text {
 	width: 100px;
 	height: 20px;
+    margin-top: 10px;
+}
+
+.header-bar {
+    border-bottom: 3px rgba(211, 211, 211, 0.46) solid;
+   
 }
