@@ -1,0 +1,16 @@
+.header {
+	height: 100px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	border-bottom: solid 
+}
+
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	vertical-align: middle;
+}
+.header .header-nav .header-logo-image {
+	width: 100px;
+	height: 20px;
+}
