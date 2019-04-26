@@ -1,0 +1,23 @@
+.main-panel {
+    padding-top: 50px;
+    display: flex;
+    justify-content:space-between;
+    text-align: left;
+}
+
+.main-panel .panel-title {
+    color: #000;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    
+}
+
+.main-panel .panel-description {
+    margin-top: 20px;
+    font-size: 1em;
+    width: 450px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
