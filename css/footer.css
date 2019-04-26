@@ -63,4 +63,22 @@
 	line-height: 2.0;
 }
 
+footer .politic-foundation {
+	color: white;
+	padding-top: 40px;
+	
+}
+
+footer .politic-foundation .foundation-link {
+	color: white;
+}
+
+footer .politic-foundation .foundation-link:hover {
+	text-decoration: none;
+}
+
+footer .mozila-politic {
+	border-top: 0.1px solid #DCDCDC;
+}
+
 
