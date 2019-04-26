@@ -10,6 +10,9 @@
 
 .footer-mozila .footer-mozila-all {
 	
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
 }
 
 .footer-mozila .footer-mozila-logo {
@@ -20,10 +23,28 @@
 	height: 20px;
 	color: black;
 	background: white;
-	border: 2px solid white;
+	border: 1px solid white;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 25px;
 	
-
 	
 }
+
+.footer-mozila .mozila-department {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	
+}
+
+.footer-mozila .department-title {
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/*
+ display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+*/
