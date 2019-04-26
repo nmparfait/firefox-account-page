@@ -1,3 +1,4 @@
+/* https://www.mozilla.org/en-US/firefox/66.0/whatsnew/?oldversion=65.0.2*/
 .footer-mozila {
 	width: 100%;
 	height: 600px;
@@ -65,7 +66,7 @@
 
 footer .politic-foundation {
 	color: white;
-	padding-top: 40px;
+	
 	
 }
 
@@ -81,10 +82,6 @@ footer .mozila-politic {
 	border-top: 0.1px solid #DCDCDC;
 }
 
-.politic-language .foundation-link {
-	color: white;
-}
-
 .politic-language .foundation-link:hover {
 	text-decoration: none;
 }
@@ -94,5 +91,15 @@ footer .politic-language {
 }
 
 footer .mozila-politic {
-	vertical-align: middle;
+	vertical-align: bottom;
+}
+
+footer  .mozila-politic {
+	display: flex;
+	justify-content:space-between;
+	padding-top: 40px;
+}
+
+.politic-language .foundation-link {
+	color: white;
 }
