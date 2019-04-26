@@ -45,6 +45,7 @@
 }
 
 
+.panel-left .button-app,
 .panel-right .button-app {
     margin-top: 20px;
     text-align: center;
@@ -55,18 +56,22 @@
     background-color: black;
 }
 
-
+.panel-left .button-app a,
 .panel-right .button-app a {
     text-decoration: none;
     color: #FFF;
 }
 
+
+.panel-left .button-app:hover,
 .panel-right .button-app:hover {
    border: 2px black solid;
    background: white;
    box-shadow: 5px 5px black; 
 }
 
+
+.panel-left .button-app a:hover,
 .panel-right .button-app a:hover {
     color: black;
 } 
