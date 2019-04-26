@@ -81,4 +81,18 @@ footer .mozila-politic {
 	border-top: 0.1px solid #DCDCDC;
 }
 
+.politic-language .foundation-link {
+	color: white;
+}
 
+.politic-language .foundation-link:hover {
+	text-decoration: none;
+}
+
+footer .politic-language {
+	float: right;
+}
+
+footer .mozila-politic {
+	vertical-align: middle;
+}
