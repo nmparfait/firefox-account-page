@@ -1,12 +1,17 @@
 /* https://www.mozilla.org/en-US/firefox/66.0/whatsnew/?oldversion=65.0.2*/
 .footer-mozila {
 	width: 100%;
-	height: 600px;
+	height: 500px;
 	color: blue;
-	background-color: pink;
+	background-color: black;
 	margin-top: 50px;
 	padding-top: 25px;
 	padding-bottom: 25px;
+}
+
+#mozila-logo {
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .footer-mozila .footer-mozila-all {
@@ -109,14 +114,37 @@ footer .mozila-privacy {
     margin-bottom: 20px;
     color: white;
     display: flex;
+    justify-content: space-between;
 }
 
 .mozila-privacy .privacy-link {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    
+}
+
+.mozila-privacy .privacy-link .link {
+    padding-right: 20px;
+}
+
+.mozila-privacy .privacy-link a {
+    
+    color: white;
+}
+
+.mozila-privacy .privacy-link a:hover {
+    text-decoration: none;
 }
 
 .network-icon {
     padding-left: 20px;
-    
+    color: red;
+    z-index: auto; 
 }
+
+.fa-twitter,
+.fa-instagram {
+    color: white;
+   
+}
+
