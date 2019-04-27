@@ -71,6 +71,7 @@
 
 footer .politic-foundation {
 	color: white;
+    font-size: 0.87em;
 	
 	
 }
@@ -107,6 +108,7 @@ footer  .mozila-politic {
 
 .politic-language .foundation-link {
 	color: white;
+    margin-right: 20px;
 }
 
 footer .mozila-privacy {
