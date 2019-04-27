@@ -22,14 +22,11 @@
 }
 
 .footer-mozila .footer-mozila-logo {
-	padding: 5px;
+	padding: 2px;
 	text-align: center;
 	text-decoration: none;
-	width: 150px;
-	height: 20px;
 	color: black;
-	background: white;
-	border: 1px solid white;
+	background-color: white;
 	font-weight: bold;
 	font-size: 25px;
 	
